@@ -4,6 +4,8 @@ RewriteEngine On
 
 RewriteBase /
 
+RewriteRule ^(.git/) - [F,L,NC]
+
 RewriteRule ^blog/2005/11/01/w-edwards-deming$ http://www.leadershipreview.net/w-edwards-deming [R=301,L,NC]
 RewriteRule ^blog/2005/11/10/check-list-for-success$ http://www.leadershipreview.net/check-list-for-success [R=301,L,NC]
 RewriteRule ^blog/2005/11/17/innovatory-ideas$ http://www.leadershipreview.net/innovatory-ideas [R=301,L,NC]
