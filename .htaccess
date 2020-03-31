@@ -130,6 +130,7 @@ RewriteRule ^(.*)management(.*) http://www.leadershipreview.net/management [R=30
 RewriteRule ^(.*)marketing(.*) http://www.leadershipreview.net/marketing [R=301,L,NC]
 RewriteRule ^(.*)masterclass(.*) http://www.leadershipreview.net/masterclasses [R=301,L,NC]
 
+RewriteCond %{REQUEST_URI} !google89946b6094385994.html
 RewriteCond %{HTTP_HOST} ^thinkingmanagers.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www.thinkingmanagers.com$
 RewriteRule ^/*(.*)$ http://www.leadershipreview.net [R=301,L]
